@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OverlayMenu should render correctly 1`] = `
+<span
+  className="sc-gsDKAQ bVwgo"
+>
+  Test
+</span>
+`;

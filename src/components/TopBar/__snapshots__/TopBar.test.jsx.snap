@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopBar should render correctly 1`] = `
+<nav
+  className="sc-bdvvtL dlgqPJ"
+>
+  <img
+    alt="logo"
+    className="sc-gsDKAQ ibfAJp"
+    src=""
+  />
+  <img
+    alt="menu"
+    className="sc-gsDKAQ eKfxou"
+    onClick={[Function]}
+    src=""
+  />
+</nav>
+`;

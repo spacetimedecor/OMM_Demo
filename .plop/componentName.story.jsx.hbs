@@ -1,0 +1,17 @@
+import {{ properCase name }} from "./{{ properCase name }}.component";
+
+import React from "react";
+
+export default {
+    title: '{{properCase folder}}/{{ properCase name }}',
+    component: {{ properCase name }},
+    parameters: {
+        // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
+        layout: 'fullscreen',
+    },
+};
+
+const Template = (args) => <{{ properCase name }} {...args} />;
+
+export const Primary = Template.bind({});
+Primary.args = {};
