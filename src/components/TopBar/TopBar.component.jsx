@@ -1,4 +1,5 @@
 import StyledTopBar from "./TopBar.styled";
+import { OverlayMenu } from "../../components/OverlayMenu/OverlayMenu.component";
 import { StyledImage } from "../common";
 import PropTypes from "prop-types";
 import {default as React, useState, memo} from 'react';
@@ -6,14 +7,13 @@ import logo from "../../assets/omm_logo_black.webp";
 import burger from "../../assets/hamburger-menu.svg";
 
 const TopBar = (props) => {
-  const {MenuOverlay, ...rest} = props;
   const [showOverlay, setShowOverlay] = useState(false);
 
   const handleMenu = () => setShowOverlay(!showOverlay);
 
   return (
     <>
-      <StyledTopBar {...rest}>
+      <StyledTopBar {...props}>
         <StyledImage
           src={logo}
           alt="logo"
@@ -23,7 +23,7 @@ const TopBar = (props) => {
           alt="menu"
           onClick={handleMenu}
         />
-        { MenuOverlay && showOverlay && <MenuOverlay onClick={handleMenu} /> }
+        { showOverlay && <OverlayMenu onClick={handleMenu} /> }
       </StyledTopBar>
     </>
   );
@@ -45,7 +45,7 @@ TopBar.propTypes = {
   /**
    * Background color
    */
-  background: PropTypes.string,
+  backgroundColor: PropTypes.string,
 
   /**
    * Border color

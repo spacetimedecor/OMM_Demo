@@ -1,82 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db269b9c-1dfd-45a2-aff4-6922d0e41e17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.plop/componentName.class.jsx.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.plop/componentName.sfc.jsx.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.plop/componentName.story.jsx.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.plop/componentName.styled.jsx.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.plop/componentName.test.jsx.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.plop/index.jsx.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.plop/plop.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/router-decorator.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/theme-decorator.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__mocks__/fileMock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/Hey/Hey.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/Hey/Hey.stories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/Hey/Hey.styled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/Hey/Hey.test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/Hey/__snapshots__/Hey.test.jsx.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/Hey/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/button/Button.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/button/Button.stories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/button/button.styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/Header.stories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/Introduction.stories.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/Page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/Page.stories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/assets/code-brackets.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/assets/colors.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/assets/comments.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/assets/direction.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/assets/flow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/assets/plugin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/assets/repo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/assets/stackalt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reference/stories/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/hamburger-menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/omm_logo_black.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hero/Hero.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hero/Hero.stories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hero/Hero.styled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hero/Hero.test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hero/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.stories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.styled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OverlayMenu/__snapshots__/OverlayMenu.test.jsx.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OverlayMenu/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TopBar/TopBar.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TopBar/TopBar.stories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TopBar/TopBar.styled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TopBar/TopBar.test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TopBar/__snapshots__/TopBar.test.jsx.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TopBar/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Fonts.styled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Image.styled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/Home.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/Home.stories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/Home.styled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/Home.test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/themed.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/breakpoints.js" afterDir="false" />
+    <list default="true" id="db269b9c-1dfd-45a2-aff4-6922d0e41e17" name="Changes" comment="Initial">
+      <change afterPath="$PROJECT_DIR$/NOTES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/WeareOMM_v3_2x.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/subtitle-font.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GraphicBreak/GraphicBreak.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GraphicBreak/GraphicBreak.stories.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GraphicBreak/GraphicBreak.styled.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GraphicBreak/GraphicBreak.test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GraphicBreak/__snapshots__/GraphicBreak.test.jsx.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GraphicBreak/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeroOverlay/HeroOverlay.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeroOverlay/HeroOverlay.stories.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeroOverlay/HeroOverlay.styled.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeroOverlay/HeroOverlay.test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeroOverlay/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.plop/componentName.test.jsx.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/.plop/componentName.test.jsx.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.styled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.styled.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.stories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.stories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.styled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.styled.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OverlayMenu/__snapshots__/OverlayMenu.test.jsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverlayMenu/__snapshots__/OverlayMenu.test.jsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopBar/TopBar.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopBar/TopBar.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopBar/TopBar.stories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopBar/TopBar.stories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopBar/TopBar.styled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopBar/TopBar.styled.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopBar/__snapshots__/TopBar.test.jsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopBar/__snapshots__/TopBar.test.jsx.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.stories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.stories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.styled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.styled.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,18 +74,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/theme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/theme" />
       <recent name="$PROJECT_DIR$/.storybook" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/utils" />
-      <recent name="$PROJECT_DIR$/.plop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -188,9 +152,9 @@
       <list>
         <item itemvalue="npm.storybook" />
         <item itemvalue="npm.build-storybook" />
-        <item itemvalue="npm.snapshots" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.test" />
+        <item itemvalue="npm.snapshots" />
       </list>
     </recent_temporary>
   </component>
@@ -207,8 +171,17 @@
       <workItem from="1646991212615" duration="87000" />
       <workItem from="1646991344457" duration="140000" />
       <workItem from="1646991488538" duration="17276000" />
-      <workItem from="1647085480852" duration="13733000" />
+      <workItem from="1647085480852" duration="26343000" />
+      <workItem from="1647174763698" duration="17862000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <created>1647113705029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647113705029</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,5 +197,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
   </component>
 </project>

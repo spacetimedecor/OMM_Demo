@@ -1,0 +1,4 @@
+A THREE canvas in the Hero, which
+parallaxes
+
+Make the graph break an icon instead of line

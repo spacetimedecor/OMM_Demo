@@ -22,5 +22,4 @@ const Template = (args) => <OverlayMenu {...args}>
 export const Primary = Template.bind({});
 Primary.args = {
     primary: true,
-    backgroundColor: '#b0b0b0'
 };

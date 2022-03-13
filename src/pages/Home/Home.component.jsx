@@ -1,9 +1,13 @@
 import * as React from "react";
 import StyledHome from "./Home.styled";
+import Hero from "../../components/Hero";
+import GraphicBreak from "../../components/GraphicBreak";
+import HeroOverlay from "../../components/HeroOverlay";
 
 const Home = (props) => (
   <StyledHome {...props}>
-    {props.children}
+    <Hero Overlay={ () => <HeroOverlay /> }/>
+    <GraphicBreak {...props} />
   </StyledHome>
 );
 

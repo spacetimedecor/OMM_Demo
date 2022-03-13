@@ -2,16 +2,16 @@
 
 exports[`TopBar should render correctly 1`] = `
 <nav
-  className="sc-bdvvtL dlgqPJ"
+  className="sc-bdvvtL iDfKek"
 >
   <img
     alt="logo"
-    className="sc-gsDKAQ ibfAJp"
+    className="sc-gsDKAQ lfkiim"
     src=""
   />
   <img
     alt="menu"
-    className="sc-gsDKAQ eKfxou"
+    className="sc-gsDKAQ eMyjrx"
     onClick={[Function]}
     src=""
   />

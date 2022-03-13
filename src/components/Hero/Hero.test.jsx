@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import themed from "../../utils/themed";
+import themed from "../../theme/themed";
 import Hero from "./Hero.component";
 
 describe("Hero", () => {

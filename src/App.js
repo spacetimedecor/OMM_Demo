@@ -1,6 +1,5 @@
 import TopBar from "./components/TopBar";
-import Hero from "./components/Hero";
-import {OverlayMenuItem, OverlayMenu} from "./components/OverlayMenu/OverlayMenu.component";
+import Home from "./pages/Home";
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -12,16 +11,7 @@ function App() {
   return (
     <Router>
       <div>
-        <TopBar
-          MenuOverlay={(props) =>
-            <OverlayMenu {...props}>
-              <OverlayMenuItem label="HOME" to="/" />
-              <OverlayMenuItem label="CREATIVE" to="/creative" />
-              <OverlayMenuItem label="TECHNOLOGY" to="/technology" />
-            </OverlayMenu>
-          }
-        />
-        <Hero />
+        <TopBar />
         <Switch>
           <Route path="/creative">
             Creative
@@ -30,7 +20,7 @@ function App() {
             Technology
           </Route>
           <Route path="/">
-            Home
+            <Home />
           </Route>
         </Switch>
       </div>

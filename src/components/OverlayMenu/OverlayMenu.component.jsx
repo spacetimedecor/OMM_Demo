@@ -1,17 +1,15 @@
 import StyledOverlayMenu from "./OverlayMenu.styled";
 import {StyledOverlayMenuItem} from "./OverlayMenu.styled";
-import {default as React} from 'react';
-import {
-  useLocation
-} from "react-router-dom";
+import {default as React, memo} from 'react';
+import {useLocation} from "react-router-dom";
+import PropTypes from "prop-types";
 
-export const OverlayMenu = (props) => {
-  return (
-    <StyledOverlayMenu {...props}>
-      {props.children}
-    </StyledOverlayMenu>
-  );
-}
+export const OverlayMenu = (props) =>
+  <StyledOverlayMenu {...props}>
+    <OverlayMenuItem label="HOME" to="/" />
+    <OverlayMenuItem label="CREATIVE" to="/creative" />
+    <OverlayMenuItem label="TECHNOLOGY" to="/technology" />
+  </StyledOverlayMenu>
 
 export const OverlayMenuItem = (props) => {
   const {label, to, ...rest} = props;
@@ -29,4 +27,11 @@ export const OverlayMenuItem = (props) => {
   )
 }
 
-export default OverlayMenu;
+export default memo(OverlayMenu);
+
+OverlayMenu.propTypes = {
+  /**
+   * Background color
+   */
+  backgroundColor: PropTypes.string,
+}

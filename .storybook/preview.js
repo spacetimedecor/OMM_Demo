@@ -1,5 +1,6 @@
 import themeDecorator from "./theme-decorator";
 import routerDecorator from "./router-decorator";
+import '../src/index.css';
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },

@@ -1,14 +1,14 @@
 import * as React from "react";
 
 import themed from "../../theme/themed";
-import {{ properCase name }} from "./{{ properCase name }}.component";
+import HeroOverlay from "./HeroOverlay.component";
 
-describe("{{ properCase name }}", () => {
+describe("HeroOverlay", () => {
   it("should render correctly", () => {
     const component = themed(
-      <{{ properCase name }}>
+      <HeroOverlay>
         Test
-      </{{ properCase name }}>,
+      </HeroOverlay>,
     ).toJSON();
 
     expect(component).toMatchSnapshot();

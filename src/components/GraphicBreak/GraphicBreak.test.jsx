@@ -1,14 +1,14 @@
 import * as React from "react";
 
 import themed from "../../theme/themed";
-import {{ properCase name }} from "./{{ properCase name }}.component";
+import GraphicBreak from "./GraphicBreak.component";
 
-describe("{{ properCase name }}", () => {
+describe("GraphicBreak", () => {
   it("should render correctly", () => {
     const component = themed(
-      <{{ properCase name }}>
+      <GraphicBreak>
         Test
-      </{{ properCase name }}>,
+      </GraphicBreak>,
     ).toJSON();
 
     expect(component).toMatchSnapshot();

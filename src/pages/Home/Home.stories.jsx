@@ -1,5 +1,5 @@
 import Home from "./Home.component";
-
+import TopBar from "../../components/TopBar";
 import React from "react";
 
 export default {
@@ -11,7 +11,10 @@ export default {
     },
 };
 
-const Template = (args) => <Home {...args} />;
+const Template = (args) => <>
+    <TopBar />
+    <Home {...args} />
+</>;
 
 export const Primary = Template.bind({});
 Primary.args = {};

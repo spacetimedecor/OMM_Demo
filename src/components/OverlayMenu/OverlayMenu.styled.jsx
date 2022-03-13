@@ -9,7 +9,7 @@ const StyledOverlayMenu = styled("span")`
   height: 100vh;
   text-align: center;
   position: fixed;
-  background-color: ${({ backgroundColor, theme }) => backgroundColor || theme.layout.overlayMenu.backgroundColor};;
+  background-color: ${({ backgroundColor, theme }) => backgroundColor || theme.overlayMenu.backgroundColor};;
   display: flex;
   justify-content: center;
 
@@ -44,7 +44,7 @@ export const StyledOverlayMenuItem = styled(Link)`
   transition: color 0.25s;
   
   &:hover {
-    color: darkorange;
+    color: #e66465;
   }
 
   &:first-of-type {

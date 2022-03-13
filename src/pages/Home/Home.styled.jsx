@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledHome = styled("div")`
-  color: ${({ theme }) => theme.colors.primaryColor};
+  display: grid;
 `;
 
 export default StyledHome;

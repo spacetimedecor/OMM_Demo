@@ -8,6 +8,7 @@ const StyledTopBar = styled("nav")`
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  z-index: 50;
 
   ${ ({ withBorder, borderColor, theme }) => withBorder ? 
     `${ borderColor || theme.colors.borderColor } 1px solid` : 
