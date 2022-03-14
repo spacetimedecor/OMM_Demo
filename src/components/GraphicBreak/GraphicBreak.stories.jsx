@@ -24,10 +24,3 @@ Primary.args = {
     ease: "sine.inOut"
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-    translateX: "-=25%",
-    translateY: "+=35px",
-    duration: 5,
-    ease: "power2",
-};

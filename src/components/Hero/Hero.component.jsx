@@ -11,7 +11,7 @@ import * as THREE from "three";
 import { useTheme } from 'styled-components'
 import PropTypes from "prop-types";
 
-THREE.DefaultLoadingManager.addHandler(/\.dds$/i, new DDSLoader());
+// THREE.DefaultLoadingManager.addHandler(/\.dds$/i, new DDSLoader());
 
 // const Scene = ({environmentPreset}) => {
 //   const materials = useLoader(MTLLoader, '../../assets/fruits/fruits.mtl');
@@ -34,7 +34,7 @@ const Hero = (props) => {
     <StyledHero {...rest}>
         <Canvas gl={{ antialias: true }} >
           <Suspense fallback={null}>
-            <OrbitControls target={[30, 35, 35]} />
+            <OrbitControls target={[30, 45, 35]} />
             <Environment
               preset={environmentPreset || theme.heroOverlay.environmentPreset}
               background

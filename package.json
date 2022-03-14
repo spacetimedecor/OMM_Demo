@@ -74,6 +74,7 @@
     "@storybook/testing-library": "^0.0.9",
     "@storybook/theming": "^6.4.19",
     "babel-jest": "^27.5.1",
+    "chromatic": "^6.5.2",
     "jest-css-modules-transform": "^4.3.0",
     "jest-transform-stub": "^2.0.0",
     "plop": "^3.0.5",
