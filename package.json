@@ -26,7 +26,6 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "generate": "plop --plopfile ./.plop/plop.config.js",
-    "snapshots": "jest --updateSnapshot",
     "build:storybook": "build-storybook -s public",
     "deploy:storybook": "npx chromatic --project-token=6cce64ecdfff",
     "deploy:staging": "sudo netlify deploy --build --dir \"build\"",
@@ -84,15 +83,6 @@
     "storybook-addon-themes": "^6.1.0",
     "styled-components": "^5.3.3",
     "webpack": "^5.70.0"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.jsx?$": "babel-jest"
-    },
-    "moduleNameMapper": {
-      "\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|less)$": "<rootDir>/__mocks__/fileMock.js"
-    }
   },
   "babel": {
     "presets": [
