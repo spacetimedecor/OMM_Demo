@@ -6,7 +6,9 @@ import HeroOverlay from "../../components/HeroOverlay";
 
 const Home = (props) => (
   <StyledHome {...props}>
-    <Hero Overlay={ () => <HeroOverlay /> }/>
+    <Hero>
+      <HeroOverlay />
+    </Hero>
     <GraphicBreak {...props} />
   </StyledHome>
 );

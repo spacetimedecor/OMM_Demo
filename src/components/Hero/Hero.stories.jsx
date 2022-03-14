@@ -6,7 +6,6 @@ export default {
     title: 'Sections/Hero',
     component: Hero,
     parameters: {
-        // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
         layout: 'fullscreen',
     },
     argTypes: {

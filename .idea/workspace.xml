@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db269b9c-1dfd-45a2-aff4-6922d0e41e17" name="Changes" comment="Test">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="db269b9c-1dfd-45a2-aff4-6922d0e41e17" name="Changes" comment="Deploy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fruits/fruits.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fruits/fruits.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GraphicBreak/GraphicBreak.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GraphicBreak/GraphicBreak.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GraphicBreak/__snapshots__/GraphicBreak.test.jsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GraphicBreak/__snapshots__/GraphicBreak.test.jsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.stories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.stories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroOverlay/HeroOverlay.stories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroOverlay/HeroOverlay.stories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OverlayMenu/OverlayMenu.test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopBar/__snapshots__/TopBar.test.jsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopBar/__snapshots__/TopBar.test.jsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.stories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.stories.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,28 +69,11 @@
       <recent name="$PROJECT_DIR$/src/components/button" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy:prod">
+  <component name="RunManager" selected="Node.js.GraphicBreak.test.jsx">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="chromatic" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="chromatic" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+    <configuration name="GraphicBreak.test.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/GraphicBreak/GraphicBreak.test.jsx" working-dir="$PROJECT_DIR$/src/components/GraphicBreak">
       <method v="2" />
     </configuration>
     <configuration name="deploy:prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -104,11 +96,21 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="snapshots" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="snapshots" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.snapshots" />
+        <item itemvalue="Node.js.GraphicBreak.test.jsx" />
+        <item itemvalue="npm.storybook" />
         <item itemvalue="npm.deploy:prod" />
         <item itemvalue="npm.deploy:staging" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.chromatic" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +143,7 @@
       <workItem from="1647174763698" duration="18201000" />
       <workItem from="1647223560397" duration="3677000" />
       <workItem from="1647227989154" duration="1376000" />
-      <workItem from="1647255849651" duration="2797000" />
+      <workItem from="1647255849651" duration="6686000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1647113705029</created>
@@ -185,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647257330063</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Deploy">
+      <created>1647259088347</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647259088347</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +216,7 @@
     <MESSAGE value="Gosh - a lot" />
     <MESSAGE value="More" />
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deploy" />
   </component>
 </project>

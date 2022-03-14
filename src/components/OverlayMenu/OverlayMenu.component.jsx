@@ -6,13 +6,13 @@ import PropTypes from "prop-types";
 
 export const OverlayMenu = (props) =>
   <StyledOverlayMenu {...props}>
-    <OverlayMenuItem label="HOME" to="/" />
-    <OverlayMenuItem label="CREATIVE" to="/creative" />
-    <OverlayMenuItem label="TECHNOLOGY" to="/technology" />
+    <OverlayMenuItem to="/">HOME</OverlayMenuItem>
+    <OverlayMenuItem to="/creative">CREATIVE</OverlayMenuItem>
+    <OverlayMenuItem to="/technology">TECHNOLOGY</OverlayMenuItem>
   </StyledOverlayMenu>
 
 export const OverlayMenuItem = (props) => {
-  const {label, to, ...rest} = props;
+  const {to} = props;
   const location = useLocation();
   const selected = to === location.pathname;
 
@@ -20,9 +20,9 @@ export const OverlayMenuItem = (props) => {
     <StyledOverlayMenuItem
       to={to}
       className={selected && 'selected'}
-      {...rest}
+      {...props}
     >
-      {label}
+      {props.children}
     </StyledOverlayMenuItem>
   )
 }

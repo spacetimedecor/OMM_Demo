@@ -2,7 +2,8 @@
 
 exports[`GraphicBreak should render correctly 1`] = `
 <div
-  className="sc-bdvvtL bppPBt"
+  className="sc-bdvvtL eBsvWT"
+  id="graphic-break1"
 >
   Test
 </div>

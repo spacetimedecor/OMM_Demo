@@ -4,7 +4,7 @@ import StyledGraphicBreak from "./GraphicBreak.styled";
 import PropTypes from "prop-types";
 import { useTheme } from 'styled-components'
 
-const GraphicBreak = ((props) => {
+const GraphicBreak = (props) => {
   const theme = useTheme();
   const {translateX, translateY, duration, ease} = props;
 
@@ -24,9 +24,9 @@ const GraphicBreak = ((props) => {
     <StyledGraphicBreak
       {...props}
       id="graphic-break1"
-    / >
-  )
-});
+    />
+  );
+};
 
 export default GraphicBreak;
 
