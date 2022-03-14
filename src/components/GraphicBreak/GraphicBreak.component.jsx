@@ -1,4 +1,4 @@
-import {default as React, useEffect, useRef, memo} from "react";
+import {default as React, useEffect} from "react";
 import gsap from "gsap";
 import StyledGraphicBreak from "./GraphicBreak.styled";
 import PropTypes from "prop-types";
@@ -18,7 +18,16 @@ const GraphicBreak = (props) => {
         repeat: -1,
         yoyo: true,
       })
-  }, [translateX, translateY, duration, ease]);
+  }, [
+    translateX,
+    translateY,
+    duration,
+    ease,
+    theme.graphicBreak.translateX,
+    theme.graphicBreak.translateY,
+    theme.graphicBreak.duration,
+    theme.graphicBreak.ease
+  ]);
 
   return (
     <StyledGraphicBreak
