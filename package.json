@@ -25,9 +25,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public",
     "generate": "plop --plopfile ./.plop/plop.config.js",
-    "snapshots": "jest --updateSnapshot"
+    "snapshots": "jest --updateSnapshot",
+    "build:storybook": "build-storybook -s public",
+    "deploy:storybook": "npx chromatic --project-token=6cce64ecdfff",
+    "deploy:staging": "sudo netlify deploy --build --dir \"build\"",
+    "deploy:prod": "sudo netlify deploy --build --prod --dir \"build\""
   },
   "eslintConfig": {
     "extends": [

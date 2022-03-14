@@ -1,6 +1,5 @@
 const theme = {
   colors: {
-    disabledColor: '#bdc3c7',
     primaryColor: '#ffffff',
     backgroundColor1: 'rgba(255,255,255,0)',
     backgroundColor2: '#e66465',
