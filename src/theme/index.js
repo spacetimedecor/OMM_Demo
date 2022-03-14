@@ -7,7 +7,8 @@ const theme = {
     borderColor: '#ffffff'
   },
   heroOverlay: {
-    backgroundColor: 'rgba(255,255,255,0)'
+    backgroundColor: 'rgba(255,255,255,0)',
+    environmentPreset: "park",
   },
   graphicBreak: {
     translateX: "-=10%",

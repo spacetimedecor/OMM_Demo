@@ -6,6 +6,13 @@ const StyledHero = styled("div")`
   background: ${({ backgroundColor, theme }) => backgroundColor || theme.colors.backgroundColor2 };
   position: relative;
   width: 100vw;
+  &:hover {
+    cursor: grab;
+  }
+  
+  &:active {
+    cursor: grabbing;
+  }
 `;
 
 export default StyledHero;

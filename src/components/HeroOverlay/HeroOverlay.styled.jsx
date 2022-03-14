@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const StyledHeroOverlay = styled("div")`
+  pointer-events: none;
   position: absolute;
   color: white;
   left: 0;
