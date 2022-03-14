@@ -1,5 +1,5 @@
 import Hero from "./Hero.component";
-
+import HeroOverlay from "../../components/HeroOverlay";
 import React from "react";
 
 export default {
@@ -28,7 +28,7 @@ export default {
     }
 };
 
-const Template = (args) => <Hero {...args} />;
+const Template = (args) => <Hero {...args} Overlay={ () => <HeroOverlay /> } />;
 
 export const Primary = Template.bind({});
 Primary.args = {
